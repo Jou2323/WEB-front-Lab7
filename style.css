@@ -1,0 +1,40 @@
+.table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    
+}
+
+.header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    background: rgb(143, 213, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+   
+    margin-bottom: 20px;
+}
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background: rgb(143, 213, 245);
+    font-size: 24px;
+    border: 0;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
